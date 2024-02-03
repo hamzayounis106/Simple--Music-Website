@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website Project</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="utilies.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <Section id="header" class="header  align-center">
+        <nav>
+            <ul class="flex align-center">
+                <li><img src="Images/logo.png" alt=""></li>
+                <li>Welcome to Relaxing Musical Website</li>
+            </ul>
+        </nav>
+    </Section>
+
+    <section class="main flex direction-coloumn" id="SongContainer">
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="1" class=" songPlay fa-solid fa-play"></i></span>
+        </div> <br>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="2" class=" songPlay fa-solid fa-play"></i></span>
+        </div> <br>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="3" class=" songPlay fa-solid fa-play"></i></span>
+        </div>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="4" class=" songPlay fa-solid fa-play"></i></span>
+        </div>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="5" class=" songPlay fa-solid fa-play"></i></span>
+        </div>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="6" class=" songPlay fa-solid fa-play"></i></span>
+        </div>
+        <div class="songItem align-center flex justify-between">
+            <img id="SongImage" class="coverSong" alt="">
+            <span class="song-name" id="SongName"></span> <span class="song-duration"></span>
+            <span><i id="7" class=" songPlay fa-solid fa-play"></i></span>
+        </div>
+
+    </section>
+    <section class="bottom my-bottom ">
+        <div class="myprogresbar flex direction-coloumn" id="myProgressBarContainer">
+            <input type="range" name="" id="myProgressBar" min="0" max="100" value="0">
+        </div>
+        <div class="icons flex justify-center direction-row">
+
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <span>
+
+                <i class="fa-solid fa-backward-fast" id="10back"></i>            </span>
+            <span>
+
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+            </span>
+            <span>
+
+                <i class="fa-solid fa-forward-fast" id="10next"></i> </span>
+            <span>
+
+                <i class="fa-solid fa-forward" id="next"></i>
+            </span>
+        </div>
+        <img src="Images/gif.gif" alt="" id="gif">
+        <span id="songDisplay"></span>
+    </section>
+
+
+
+</body>
+<script src="https://kit.fontawesome.com/241f9acf1b.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+</html>

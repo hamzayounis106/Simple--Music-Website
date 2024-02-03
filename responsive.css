@@ -1,0 +1,28 @@
+@media screen and (max-width: 540px) {
+    .songItem {
+        width: 19rem !important;
+        font-size: 14px;
+    }
+
+    .header {
+        height: 70px !important;
+    }
+
+    .main::before {
+        height: 130%;
+    }
+
+    .songItem img {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .songItem {
+        width: 16rem !important;
+    }
+
+    .header {
+        height: 78px !important;
+    }
+}

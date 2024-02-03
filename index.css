@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+
+    color: white;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    margin-top: -16px;
+    background: rgb(16, 19, 47);
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 4px;
+    padding: 14px 3px;
+}
+
+nav img {
+    width: 3rem;
+}
+
+.songItem img {
+    width: 3rem;
+    height: 2rem;
+    margin: 6px 13px;
+    border-radius: 6px;
+}
+
+.songItem {
+    border-radius: 6px;
+    width: 25rem;
+    background-color: white;
+    margin: 12px 12px;
+    flex-wrap: wrap;
+}
+
+.songItem i {
+    width: 2rem;
+    cursor: pointer;
+}
+
+#gif {
+    width: 8rem;
+    border-radius: 4px;
+    height: 2rem;
+}
+
+.main {
+    height: 100%;
+    top: 28px;
+    padding-top: 56px;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-image: url("Images/971.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position: center top -30px;
+    background-attachment: fixed;
+    z-index: -1;
+
+}
+
+.bottom {
+    background: #521597;
+    box-shadow: 16px 18px 15px 57px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 88px;
+}
+
+.icons {
+    color: white;
+}
+
+.icons i {
+    padding: 2px 5px;
+}
+
+#gif {
+    
+    margin: 0 8px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+#songDisplay {
+    color: white;
+    margin: 0 8px;
+    /* padding-bottom: 4px; */
+    transition: 0.4s ease-in-out;
+    margin-bottom: 4px;
+}
+
+.myprogresbar {
+    padding-top: 12px;
+}
+#myProgressBar{
+    cursor: pointer;
+}
+#masterPlay {
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
